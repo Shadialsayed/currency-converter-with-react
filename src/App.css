@@ -1,0 +1,18 @@
+.wrapper{
+    height: 10em;
+    display: flex;
+
+    max-width: 30%
+}
+
+.text-input{
+    max-width: 150px;
+}
+
+.menu{
+    min-width: 190px;
+}
+
+.date-label{
+
+}
