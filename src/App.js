@@ -75,14 +75,14 @@ function App() {
 
     // Handle changes (input fields + dropdown lists) using the handlers below, except when there is no input value
     const handleSourceChange = (event) => {
-        if(event.target.value != ""){
+        if(event.target.value !== ""){
             setFrom(event.target.value);
             setTo(parseFloat(event.target.value * currencies_table[index[1]][index[0]]).toFixed(2));
         }
     }
 
     const handleTargetChange = (event) => {
-        if (event.target.value != "") {
+        if (event.target.value !== "") {
             setTo(event.target.value);
             setFrom(parseFloat(event.target.value * currencies_table[index[0]][index[1]]).toFixed(2));
         }
